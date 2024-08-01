@@ -1,7 +1,3 @@
-//
-// Created by 류재형 on 2024. 7. 26..
-//
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -11,8 +7,8 @@ class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    explicit MainWindow(QWidget *parent = nullptr);
+    ~MainWindow() override;
 };
 
 
